@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="myBackground" tilewidth="32" tileheight="32">
+  <image source="tmx/level3/myBackground.png" trans="ffffff" width="800" height="480"/>
+ </tileset>
+ <tileset firstgid="376" name="myflower_1" tilewidth="32" tileheight="32">
+  <image source="tmx/level3/myflower_1.png" trans="ffffff" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="377" name="myflower_2" tilewidth="32" tileheight="32">
+  <image source="tmx/level3/myflower_2.png" trans="ffffff" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="378" name="myflower_3" tilewidth="32" tileheight="32">
+  <image source="tmx/level3/myflower_3.png" trans="ffffff" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="379" name="myground_2" tilewidth="32" tileheight="32">
+  <image source="tmx/level3/myground_2.png" trans="ffffff" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="380" name="myflower_4" tilewidth="32" tileheight="32">
+  <image source="tmx/level3/myflower_4.png" trans="ffffff" width="32" height="32"/>
+ </tileset>
+ <layer name="background" width="25" height="15">
+  <properties>
+   <property name="background" value="background"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACw3DCXQIBAAA0GHMfc1t2NgYZpj7ZuacOTbHNteGuec2QqE7ytlBUZRbB+W+jw5Hd5Rb0UG5K7fy3/s/W0BAQHZzGGhOcxlkbvOY13zmt4AFLWRhi1jUYItZ3BKWtJSlLWNZQyxneSsYapgVrWS4EVa2ipFWtZrVjbKG0da0lrWNsY51rWd9G9jQRja2iU1tZnNb2NJWxtraONvY1na2t4MdjbeTCXa2i13tZqJJdreHPe1lsimm2ts+9rWf/U0z3QEOdJAZDnaIQx3mcEc40kxHOdoxjnWc453gRLOc5GSfcIpTneaTPuV0ZzjTp33GZ33O533BF33JWc72ZV9xjnOd53wXuNBXfc3XfcNFLvZN33KJS33bd1zmct/1PVe40lWudo1rXed63/cDP/QjN7jRj/3ETW52i1vd5nZ3uNNd7naPe93nfg940E/9zM/9wkMe9ohH/dKv/Npv/Nbv/N4fPOZxf/QnT3jSU572jGc953l/9hcveNFf/c3f/cNLXvZP//KKV73mdW9401v+7T/+623veNd73veBD33kf/5vQDbMbg4DzWkug8xtHvOaz/wWsKCFLGwRixpsMYtbwpKWsrRlLGuI5SxvBUMNs6KVDDfCylYx0qpWs7pR1jDamtaytjHWsa71rG8DG9rIxjaxqc1sbgtb2spYWxtnG9vazvZ2sKPxdjLBznaxq91MNMnu9rCnvUw2xVR728e+9rO/aaY7wIEOMsPBDnGowxzuCEea6ShHO8axjnO8E5xolpN8DNICP1jcBQAA
+  </data>
+ </layer>
+ <layer name="groundMid" width="25" height="15">
+  <properties>
+   <property name="groundMid" value="groundMid"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWVjKiYVL3Y2IMJUOI/cvWTa9coIAzwhSt6XFES75S4j172DdZ0NlBhjwwAuS2Jc9wFAAA=
+  </data>
+ </layer>
+ <layer name="flower" width="25" height="15">
+  <properties>
+   <property name="flower" value="flower"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGDqghnGgXTA4AanhMtDhOND2DyYACovR8Bg4MNTyDikAAC236JXcBQAA
+  </data>
+ </layer>
+ <layer name="groundLeft" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGNmggpE6eikxhxjzaWEGMebTwl/0AEPV3YQApfFJifnUAMM1XpDBYPEjALebYnzcBQAA
+  </data>
+ </layer>
+ <layer name="groundRight" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGB6ginFwmEVNdwxWMFT8OFTcSQ4gx2/00kMOoNSewe7OgUiLADxMUZDcBQAA
+  </data>
+ </layer>
+ <objectgroup name="mouse" width="25" height="15">
+  <properties>
+   <property name="mouse" value="mouse"/>
+  </properties>
+  <object x="30" y="160" width="34" height="32"/>
+  <object x="-1" y="32" width="32" height="32"/>
+  <object x="352" y="416" width="32" height="30"/>
+  <object x="513" y="32" width="30" height="31"/>
+  <object x="706" y="96" width="30" height="33"/>
+  <object x="671" y="257" width="34" height="31"/>
+  <object x="482" y="319" width="30" height="34"/>
+  <object x="736" y="416" width="35" height="32"/>
+  <object x="129" y="352" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Obs" width="25" height="15">
+  <properties>
+   <property name="Obs" value="Obs"/>
+  </properties>
+  <object x="575" y="384" width="31" height="31"/>
+  <object x="609" y="255" width="31" height="34"/>
+  <object x="481" y="129" width="31" height="31"/>
+  <object x="768" y="95" width="30" height="34"/>
+  <object x="96" y="95" width="32" height="33"/>
+  <object x="255" y="63" width="32" height="34"/>
+  <object x="320" y="289" width="31" height="30"/>
+  <object x="256" y="417" width="33" height="32"/>
+ </objectgroup>
+ <objectgroup name="Star" width="25" height="15">
+  <properties>
+   <property name="Star" value="Star"/>
+  </properties>
+  <object x="384" y="128" width="32" height="31"/>
+  <object x="63" y="318" width="34" height="32"/>
+  <object x="672" y="385" width="31" height="30"/>
+  <object x="64" y="33" width="34" height="31"/>
+  <object x="514" y="256" width="31" height="29"/>
+  <object x="673" y="33" width="33" height="28"/>
+  <object x="352" y="31" width="35" height="33"/>
+ </objectgroup>
+ <objectgroup name="groundPhysic" width="25" height="15">
+  <properties>
+   <property name="groundPhysic" value="groundPhysic"/>
+  </properties>
+  <object x="0" y="64" width="28" height="31"/>
+  <object x="-1" y="195" width="193" height="61"/>
+  <object x="63" y="160" width="128" height="34"/>
+  <object x="97" y="129" width="94" height="31"/>
+  <object x="129" y="97" width="62" height="32"/>
+  <object x="0" y="320" width="62" height="31"/>
+  <object x="0" y="352" width="127" height="34"/>
+  <object x="0" y="386" width="224" height="61"/>
+  <object x="-1" y="452" width="800" height="28"/>
+  <object x="287" y="353" width="224" height="33"/>
+  <object x="320" y="320" width="158" height="33"/>
+  <object x="352" y="288" width="95" height="32"/>
+  <object x="225" y="223" width="62" height="34"/>
+  <object x="225" y="97" width="93" height="32"/>
+  <object x="449" y="65" width="188" height="29"/>
+  <object x="641" y="131" width="158" height="60"/>
+  <object x="354" y="162" width="191" height="28"/>
+  <object x="578" y="290" width="222" height="30"/>
+  <object x="736" y="321" width="64" height="31"/>
+  <object x="768" y="353" width="32" height="30"/>
+  <object x="515" y="419" width="189" height="32"/>
+ </objectgroup>
+ <layer name="ground" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWDGVQzQjCtzaeVHcjmU9sOdLNpHVYjBZAblsTqoSTO6BHXuNLVUEtbAOR/EJDcBQAA
+  </data>
+ </layer>
+</map>

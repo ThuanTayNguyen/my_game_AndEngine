@@ -1,0 +1,4 @@
+include ':app'
+include ':andEngine'
+include ':AndEnginePhysicsBox2DExtension'
+include ':TMXTiledMapExtension'
